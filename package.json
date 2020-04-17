@@ -1,0 +1,70 @@
+{
+	"name": "@titanium/screenshot",
+	"version": "0.0.1",
+	"description": "Native modules that allows you to detect that a screenshot was taken on iOS.",
+	"main": "index.js",
+	"scripts": {
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"postinstall": "tiapp-install-module",
+		"postuninstall": "tiapp-uninstall-module",
+		"test": "npm install --ignore-scripts && npm run list",
+		"prepublishOnly": "git pull && bump"
+	},
+	"author": {
+		"name": "Marcel Pociot",
+		"url": "https://github.com/mpociot/TiScreenshotDetection"
+	},
+	"maintainers": [
+		{
+			"name": "Brenton House",
+			"email": "brenton.house@gmail.com",
+			"url": "https://brenton.house"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "github:brentonhouse/titanium-screenshot"
+	},
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/brentonhouse/titanium-screenshot/issues"
+	},
+	"homepage": "https://github.com/brentonhouse/titanium-screenshot#readme",
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"turbo",
+		"axway",
+		"appcelerator",
+		"ios",
+		"android",
+		"iphone",
+		"ipad",
+		"screenshot",
+		"titanium-native-module",
+		"brenton-house"
+	],
+	"titanium": {
+		"type": "native-module",
+		"platform": {
+			"ios": {
+				"moduleid": "de.marcelpociot.screenshot",
+				"name": "TiScreenshotDetection",
+				"version": "1.0.0",
+				"apiversion": 2,
+				"architectures": [
+					"armv7",
+					"arm64",
+					"i386",
+					"x86_64"
+				],
+				"minsdk": "8.2.0",
+				"guid": "46ce9d7f-fd1d-4618-b4d7-bc6327ea7543"
+			}
+		}
+	},
+	"dependencies": {
+		"@titanium/tiapp-xml": ">=0.9.5"
+	}
+}
