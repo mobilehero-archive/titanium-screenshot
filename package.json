@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/screenshot",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Native modules that allows you to detect that a screenshot was taken on iOS.",
 	"main": "index.js",
 	"scripts": {
@@ -8,7 +8,7 @@
 		"postinstall": "tiapp-install-module",
 		"postuninstall": "tiapp-uninstall-module",
 		"test": "npm install --ignore-scripts && npm run list",
-		"prepublishOnly": "git pull && bump"
+		"prepublishOnly2": "git pull && bump"
 	},
 	"author": {
 		"name": "Marcel Pociot",
@@ -66,5 +66,8 @@
 	},
 	"dependencies": {
 		"@titanium/tiapp-xml": ">=0.9.5"
+	},
+	"devDependencies": {
+		"@titanium/eslint-config": "0.0.11"
 	}
 }
