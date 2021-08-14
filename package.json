@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/screenshot",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Native modules that allows you to detect that a screenshot was taken on iOS.",
 	"main": "index.js",
 	"scripts": {
