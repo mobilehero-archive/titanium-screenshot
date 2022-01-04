@@ -1,7 +1,7 @@
 {
 	"name": "@titanium/screenshot",
-	"version": "1.0.4",
-	"description": "Native modules that allows you to detect that a screenshot was taken on iOS.",
+	"version": "1.0.5",
+	"description": "Axway Amplify modules that to detect that a screenshot was taken on iOS with Appcelerator Titanium apps",
 	"main": "index.js",
 	"scripts": {
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
