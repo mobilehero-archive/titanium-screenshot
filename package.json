@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/screenshot",
-	"version": "1.0.21",
+	"version": "1.0.22",
 	"description": "⭐  Axway Amplify modules that to detect that a screenshot was taken on iOS with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -73,7 +73,7 @@
 		}
 	},
 	"devDependencies": {
-		"@titanium/eslint-config": "1.0.23",
+		"@titanium/eslint-config": "1.0.24",
 		"eslint": "^8.6.0",
 		"eslint-plugin-import": "^2.25.4",
 		"eslint-plugin-jsdoc": "^37.6.1",
@@ -91,29 +91,29 @@
 		"@geek/spawn": "^1.0.2",
 		"@geek/spinner": "^1.0.2",
 		"@geek/tld": "^2.0.1-1",
-		"@nativeloop/mobile": "^1.0.16",
-		"@titanium/appcelerator": "^6.0.19",
+		"@nativeloop/mobile": "^1.0.18",
+		"@titanium/appcelerator": "^6.0.20",
 		"@titanium/authentication": "^1.0.32",
-		"@titanium/authentication-mock": "^1.0.14",
+		"@titanium/authentication-mock": "^1.0.15",
 		"@titanium/authentication-oauth": "^1.0.35",
 		"@titanium/bluebird": "^3.7.24",
 		"@titanium/errors": "^1.0.19",
-		"@titanium/essentials": "^1.0.52",
+		"@titanium/essentials": "^1.0.53",
 		"@titanium/events": "^1.0.31",
-		"@titanium/eventsource": "^1.0.20",
+		"@titanium/eventsource": "^1.0.21",
 		"@titanium/identity": "^2.0.24",
-		"@titanium/json5": "^1.0.15",
+		"@titanium/json5": "^1.0.16",
 		"@titanium/jsonc": "^1.0.20",
-		"@titanium/jwt": "^1.0.23",
-		"@titanium/module-copier": "^1.0.26",
+		"@titanium/jwt": "^1.0.24",
+		"@titanium/module-copier": "^1.0.27",
 		"@titanium/please": "^1.0.31",
 		"@titanium/polyfill": "^1.0.28",
 		"@titanium/querystring": "^1.0.19",
 		"@titanium/tiapp-xml": "^1.0.30",
-		"@titanium/titanium": "^5.4.23",
-		"@titanium/turbo": "^2.2.44",
+		"@titanium/titanium": "^5.4.25",
+		"@titanium/turbo": "^2.2.45",
 		"nativeloop": "^1.0.14",
 		"npm": "^8.3.1",
-		"tiapp-dir": "^1.0.19"
+		"tiapp-dir": "^1.0.20"
 	}
 }
