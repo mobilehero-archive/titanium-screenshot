@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/screenshot",
-	"version": "1.0.31",
+	"version": "1.0.32",
 	"description": "⭐  Axway Amplify modules that to detect that a screenshot was taken on iOS with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -73,10 +73,10 @@
 		}
 	},
 	"devDependencies": {
-		"@titanium/eslint-config": "1.0.32",
+		"@titanium/eslint-config": "1.0.33",
 		"eslint": "^8.7.0",
 		"eslint-plugin-import": "^2.25.4",
-		"eslint-plugin-jsdoc": "^37.6.2",
+		"eslint-plugin-jsdoc": "^37.6.3",
 		"eslint-plugin-promise": "^6.0.0"
 	},
 	"dependencies": {
@@ -97,12 +97,12 @@
 		"@titanium/authentication-mock": "^1.0.22",
 		"@titanium/authentication-oauth": "^1.0.43",
 		"@titanium/bluebird": "^3.7.32",
-		"@titanium/errors": "^1.0.27",
+		"@titanium/errors": "^1.0.28",
 		"@titanium/essentials": "^1.0.62",
 		"@titanium/events": "^1.0.40",
-		"@titanium/eventsource": "^1.0.31",
+		"@titanium/eventsource": "^1.0.32",
 		"@titanium/identity": "^2.0.31",
-		"@titanium/json5": "^1.0.24",
+		"@titanium/json5": "^1.0.25",
 		"@titanium/jsonc": "^1.0.26",
 		"@titanium/jwt": "^1.0.31",
 		"@titanium/module-copier": "^1.0.36",
